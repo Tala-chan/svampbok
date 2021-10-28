@@ -3,9 +3,17 @@
 }
 h1 {
   display: flex;
-  justify-content: center;
-  text-align: center;
   color: saddlebrown;
+  font-family: "Courier New", monospace;
+}
+p {
+  display: flex;
+  justify-content: center;
+  color: #f8efe0;
+  font-size: 100px;
+  margin-left: 106%;
+  margin-top: 25%;
+  font-family: "Lucida Grande", lucidia, monospace;
 }
 .wrapper {
   background-color: #f3e1c5;
@@ -15,7 +23,11 @@ h1 {
   margin-right: auto;
   margin-bottom: 30px;
   display: flex;
-  align-items: flex-start;
+  text-align: center;
+}
+img {
+  display: flex;
+  text-align: center;
 }
 .wrapper1 {
   display: flex;
@@ -72,13 +84,10 @@ input::-webkit-input-placeholder {
 body {
   background-color: #eabd77;
   height: 100%;
-  font-family: "Courier New", monospace;
 }
 html {
   height: 100%;
 }
-.välkommen {
+.välkommna {
   position: absolute;
-  bottom: 8px;
-  left: 16px;
 }

@@ -3,43 +3,37 @@
 }
 h1 {
   display: flex;
+  justify-content: center;
+  text-align: center;
   color: saddlebrown;
-  font-family: "Courier New", monospace;
 }
 p {
-  display: flex;
-  justify-content: center;
-  color: #f8efe0;
-  font-size: 100px;
-  margin-left: 106%;
-  margin-top: 25%;
-  font-family: "Lucida Grande", lucidia, monospace;
+  font-family: "Courier New", monospace;
+  font-size: 25px;
+  color: peru;
+  margin-right: 50%;
+}
+a:link {
+  color: peru;
+}
+a:visited {
+  color: peru;
 }
 .wrapper {
-  background-color: #eabd77;
+  background-color: #f3e1c5;
   width: 95%;
   max-width: 100%;
+  height: 85%;
   margin-left: auto;
   margin-right: auto;
-  display: flex;
-  text-align: center;
-}
-img {
-  display: flex;
-  text-align: center;
-  width: 100%;
-  position: relative;
+  padding-left: 16px;
+  padding-right: 16px;
   margin-bottom: 30px;
-}
-.wrapper1 {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 60px;
-  font-size: 28px;
+  flex-direction: column;
+  text-align: center;
 }
 .wrapper1 {
-  background-color: #eabd77;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -53,6 +47,11 @@ img {
   display: flex;
   justify-content: space-evenly;
   align-items: flex-end;
+}
+.alfabet {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 button {
   height: 50px;
@@ -71,6 +70,7 @@ input {
   margin-bottom: 16px;
   font-family: "Courier New", monospace;
 }
+
 input,
 input::-webkit-input-placeholder {
   font-size: 25px;
@@ -81,11 +81,9 @@ input::-webkit-input-placeholder {
 }
 body {
   background-color: #eabd77;
-  height: 100%;
+  height: 1170px;
+  font-family: "Courier New", monospace;
 }
 html {
-  height: 100%;
-}
-.välkommna {
-  position: absolute;
+  height: 1170px;
 }

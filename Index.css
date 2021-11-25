@@ -13,11 +13,25 @@ p {
   color: peru;
   margin-right: 50%;
 }
+p1 {
+  font-family: "Courier New", monospace;
+  font-size: 25px;
+  color: peru;
+  align-self: flex-start;
+  margin-right: 30%;
+}
 a:link {
   color: peru;
 }
 a:visited {
   color: peru;
+}
+.alfabak {
+  background-color: wheat;
+  width: 100%;
+  align-self: center;
+  outline: solid #f8efe0 15px;
+  outline-offset: -15px;
 }
 .wrapper {
   background-color: #f3e1c5;
@@ -49,6 +63,7 @@ a:visited {
   align-items: flex-end;
 }
 .alfabet {
+  background-color: #f8efe0;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -81,7 +96,6 @@ input::-webkit-input-placeholder {
 }
 body {
   background-color: #eabd77;
-  height: 1170px;
   font-family: "Courier New", monospace;
 }
 html {

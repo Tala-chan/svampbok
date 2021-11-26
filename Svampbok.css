@@ -7,6 +7,11 @@ h1 {
   text-align: center;
   color: saddlebrown;
 }
+p {
+  color: rgb(175, 99, 22);
+  font-family: "Courier New", monospace;
+  font-size: 20px;
+}
 .wrapper {
   background-color: #f3e1c5;
   width: 95%;
